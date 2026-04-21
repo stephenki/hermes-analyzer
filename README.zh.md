@@ -205,27 +205,6 @@ PRICING = {
 
 ---
 
-## 📈 路线图
-
-### v0.1.x - 当前版本
-- ✅ 会话解析和统计
-- ✅ Markdown 和 HTML 报告
-- ✅ 常见模型成本估算
-
-### v0.2.x - 下一版本
-- 🔄 实时监控模式（logtail + SQLite）
-- 🔄 飞书/钉钉通知集成
-- 🔄 更多模型定价（GPT-4、Claude Sonnet 等）
-- 🔄 图表可视化（matplotlib/plotly）
-
-### v0.3.x - 未来版本
-- 📊 Web 仪表板（Streamlit/FastAPI）
-- 📊 Hermes Skill 集成
-- 📊 对比分析（时段 vs 时段）
-- 📊 Token 使用优化建议
-
----
-
 ## 🤝 贡献
 
 欢迎贡献！请随时提交 Issue 或 Pull Request。

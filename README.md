@@ -205,27 +205,6 @@ PRICING = {
 
 ---
 
-## 📈 Roadmap
-
-### v0.1.x - Current
-- ✅ Session parsing and statistics
-- ✅ Markdown and HTML reports
-- ✅ Cost estimation for common models
-
-### v0.2.x - Next
-- 🔄 Real-time monitoring mode (logtail + SQLite)
-- 🔄 Feishu/Lark webhook integration
-- 🔄 More model pricing (GPT-4, Claude Sonnet, etc.)
-- 🔄 Chart visualizations (matplotlib/plotly)
-
-### v0.3.x - Future
-- 📊 Web Dashboard (Streamlit/FastAPI)
-- 📊 Hermes Skill integration
-- 📊 Comparative analysis (period vs period)
-- 📊 Token usage optimization recommendations
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
