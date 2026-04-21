@@ -159,18 +159,21 @@ The tool automatically scans:
 
 ```
 hermes-analyzer/
-├── hermes_analyzer/
-│   ├── __init__.py      # Package metadata
-│   ├── cli.py           # CLI entry point
-│   ├── parser.py        # Session JSON parser
-│   ├── stats.py         # Statistics engine
-│   └── reporter.py      # Report generators
-├── setup.py             # Package configuration
-├── requirements.txt     # Dependencies
-├── README.md           # This file (English)
-├── README.zh.md        # 中文版 / Chinese version
+├── .gitignore          # Git ignore rules
 ├── LICENSE             # MIT License
-└── .gitignore          # Git ignore rules
+├── README.md           # English documentation (default)
+├── README.zh.md        # 中文文档 / Chinese documentation
+├── requirements.txt    # Python dependencies
+├── setup.py            # Package installation configuration
+├── docs/               # Additional documentation ( upcoming )
+├── examples/           # Example usage and configurations ( upcoming )
+├── tests/              # Unit and integration tests ( upcoming )
+└── hermes_analyzer/    # Core Python package
+    ├── __init__.py     # Package metadata (version: 0.1.0)
+    ├── cli.py          # Command-line interface entry point
+    ├── parser.py       # Hermes session JSON log parser
+    ├── stats.py        # Statistics aggregation & cost estimation
+    └── reporter.py     # Markdown & HTML report generators
 ```
 
 ### Local Development

@@ -159,18 +159,21 @@ HTML 报告包括：
 
 ```
 hermes-analyzer/
-├── hermes_analyzer/
-│   ├── __init__.py      # 包元数据
-│   ├── cli.py           # 命令行入口
-│   ├── parser.py        # 会话 JSON 解析器
-│   ├── stats.py         # 统计引擎
-│   └── reporter.py      # 报告生成器
-├── setup.py             # 打包配置
-├── requirements.txt     # 依赖列表
-├── README.md           # 英文版（默认）
-├── README.zh.md        # 中文版
+├── .gitignore          # Git 忽略规则
 ├── LICENSE             # MIT 许可证
-└── .gitignore          # Git 忽略规则
+├── README.md           # 英文文档（默认）
+├── README.zh.md        # 中文文档
+├── requirements.txt    # Python 依赖
+├── setup.py            # 包安装配置
+├── docs/               # 补充文档（待补充）
+├── examples/           # 使用示例（待补充）
+├── tests/              # 单元测试（待补充）
+└── hermes_analyzer/    # 核心 Python 包
+    ├── __init__.py     # 包元数据（版本 0.1.0）
+    ├── cli.py          # 命令行入口
+    ├── parser.py       # Hermes 会话日志解析器
+    ├── stats.py        # 统计聚合与成本估算
+    └── reporter.py     # Markdown 和 HTML 报告生成器
 ```
 
 ### 本地开发
