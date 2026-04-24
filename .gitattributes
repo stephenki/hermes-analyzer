@@ -1,0 +1,29 @@
+# 强制所有文本文件使用 UTF-8 和 LF 换行符
+* text=auto eol=lf
+
+# Python 文件
+*.py text eol=lf charset=utf-8
+
+# Markdown 文件
+*.md text eol=lf charset=utf-8
+
+# 配置文件
+*.yml text eol=lf charset=utf-8
+*.yaml text eol=lf charset=utf-8
+*.json text eol=lf charset=utf-8
+*.txt text eol=lf charset=utf-8
+*.cfg text eol=lf charset=utf-8
+*.ini text eol=lf charset=utf-8
+*.toml text eol=lf charset=utf-8
+
+# Shell 脚本
+*.sh text eol=lf charset=utf-8
+*.bash text eol=lf charset=utf-8
+
+# 确保二进制文件不被错误处理
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
