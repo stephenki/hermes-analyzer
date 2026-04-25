@@ -39,7 +39,7 @@ hermes-analyzer analyze --days 7
 hermes-analyzer analyze --since 2026-04-01 --until 2026-04-20
 
 # Deep dive into single session
-hermes-analyzer session ~/.hermes/sessions/session_cron_c846e16e31f9_20260420_070713.json
+hermes-analyzer session ~/.hermes/sessions/session_cron_abc12345_20260420_070713.json
 
 # Generate HTML visualization report
 hermes-analyzer report --days 30 --output-dir ~/projects/hermes-reports/
@@ -94,7 +94,7 @@ hermes-analyzer report [OPTIONS]
 | Date | Session ID | Tokens | Cost | Operation |
 |------|------------|--------|------|-----------|
 | 04-20 | Chapter 23 study | 12,450 | $0.037 | Cron Task |
-| 04-18 | OpenClaw migration | 9,820 | $0.029 | Manual |
+| 04-18 | Code review | 9,820 | $0.029 | Manual |
 
 ## 🔧 Tool Call Statistics
 

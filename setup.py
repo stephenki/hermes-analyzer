@@ -6,7 +6,7 @@ setup(
     name="hermes-analyzer",
     version="0.1.0",
     description="Hermes AI Agent conversation analyzer - Track token usage, tool calls, and costs",
-    author="Stephen",
+    author="stephenki",
     author_email="stephenki@users.noreply.github.com",
     packages=find_packages(),
     entry_points={

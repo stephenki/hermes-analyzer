@@ -39,7 +39,7 @@ hermes-analyzer analyze --days 7
 hermes-analyzer analyze --since 2026-04-01 --until 2026-04-20
 
 # 深度分析单个会话
-hermes-analyzer session ~/.hermes/sessions/session_cron_c846e16e31f9_20260420_070713.json
+hermes-analyzer session ~/.hermes/sessions/session_cron_abc12345_20260420_070713.json
 
 # 生成 HTML 可视化报告
 hermes-analyzer report --days 30 --output-dir ~/projects/hermes-reports/
@@ -94,7 +94,7 @@ hermes-analyzer report [OPTIONS]
 | 日期 | 会话 ID | tokens | 成本 | 主要操作 |
 |------|---------|--------|------|----------|
 | 04-20 | Chapter 23 学习 | 12,450 | $0.037 | 定时任务 |
-| 04-18 | OpenClaw 迁移 | 9,820 | $0.029 | 手动交互 |
+| 04-18 | Code review | 9,820 | $0.029 | 手动交互 |
 
 ## 🔧 工具调用统计
 
